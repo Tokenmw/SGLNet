@@ -1,7 +1,7 @@
 import torch.nn as nn
 from torch_geometric.nn import EGConv
 
-from data.structureGraph import *
+# from data.structureGraph import *
 from model.surrogate_fun import ActFun, Erf, ATan, ATan_P, Erf_P
 from model.lstmcell import LSTMCell
 
